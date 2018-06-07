@@ -1,0 +1,29 @@
+<svg class="background">
+  
+  <image href="bg.png" load="sync" />
+  
+  <section>
+    <image id="imgHours1" href="0.png" height="100" width="60" x="30" y="30" load="sync" />
+    <image id="imgHours2" href="0.png" height="100" width="60" x="110" y="30" load="sync" />
+    
+    <image id="imgMins1" href="0.png" height="100" width="60" x="30" y="170" load="sync" />
+    <image id="imgMins2" href="0.png" height="100" width="60" x="110" y="170" load="sync" />
+  </section>
+  
+  <section>
+    <text x="210" y="32" font-size="20">STEPS</text>
+    <text id="txtSteps" class="text-bold col-right" y="60" font-size="24" text-length="6"/>
+    
+    <image id="imgDays" href="day0.png" height="60" width="60" x="210" y="80" />
+    
+    <text x="216" y="182" font-size="20">CALS</text>
+    <text id="txtCals" class="col-right text-bold" font-size="24" y="210" text-length="6"/>
+    
+    <text x="204" y="252" font-size="20">B3</text>
+    <text id="txtPowerLvl" class="col-right text-bold" font-size="24" x="216" y="280"/>
+    
+    <text x="250" y="252" font-size="20">LV</text>
+    <text id="txtLvl" class="col-right text-bold" font-size="24" x="260" y="280" />
+  </section>
+  
+</svg>

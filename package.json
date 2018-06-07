@@ -1,0 +1,20 @@
+{
+  "fitbit": {
+    "appUUID": "4710d9f0-6a43-41df-9c23-10b18d551821",
+    "appType": "clockface",
+    "appDisplayName": "BrickFace",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "BrickFace"
+      }
+    }
+  }
+}

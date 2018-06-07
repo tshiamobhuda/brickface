@@ -1,0 +1,13 @@
+.background {
+  viewport-fill: red;
+}
+
+.col-right {
+  x: 80%;
+}
+
+.text-bold {
+  font-family: Colfax-Medium;
+  text-anchor: middle;
+  fill: black;  
+}
