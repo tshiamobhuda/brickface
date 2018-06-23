@@ -23,6 +23,7 @@ clock.granularity = "minutes";
 clock.ontick = (evt) => {
   let today = evt.date;
   let hours = today.getHours();
+  let mins = util.zeroPad(today.getMinutes());
   
   steps.text = userActivity.today.adjusted.steps;
   cals.text = userActivity.today.adjusted.calories;
@@ -37,14 +38,11 @@ clock.ontick = (evt) => {
     hours = util.zeroPad(hours);
   }
   
-  let mins = util.zeroPad(today.getMinutes());
-  
   setDay(today.getDay());
   setHours(hours);
   setMins(mins);
 }
 
-//taken from fitbit lcd clockface
 function setHours(val) {
   if (val > 9) {
     drawDigit(Math.floor(val / 10), hours1);
@@ -57,11 +55,6 @@ function setHours(val) {
 function setMins(val) {
   drawDigit(Math.floor(val / 10), mins1);
   drawDigit(Math.floor(val % 10), mins2);
-}
-
-function setDate(val) {
-  drawDigit(Math.floor(val / 10), date1);
-  drawDigit(Math.floor(val % 10), date2);
 }
 
 function setDay(val) {
