@@ -5,3 +5,8 @@ export function zeroPad(i) {
   }
   return i;
 }
+
+export function toggleElements(elementToHide, elementToShow) {
+    elementToHide.style.display = "none";
+    elementToShow.style.display = "inline";
+}
