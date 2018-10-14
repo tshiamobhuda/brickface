@@ -11,8 +11,15 @@
   </section>
   
   <section>
-    <text x="210" y="32" font-size="20">STEPS</text>
-    <text id="txtSteps" class="text-bold col-right" y="60" font-size="24" text-length="6"/>
+    <g id="gSteps" pointer-events="visible">
+      <text x="210" y="32" font-size="20">STEPS</text>
+      <text id="txtSteps" class="text-bold col-right" y="60" font-size="24" text-length="6"/>
+    </g>
+
+    <g id="gDistance" pointer-events="visible" display="none">
+      <text x="202" y="32" font-size="20">DIST (m)</text>
+      <text id="txtDistance" class="text-bold col-right" y="60" font-size="24" text-length="6"/>
+    </g>
     
     <image id="imgDays" href="day0.png" height="60" width="60" x="210" y="80" />
     
