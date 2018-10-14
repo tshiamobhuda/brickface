@@ -1,6 +1,6 @@
 {
   "fitbit": {
-    "appUUID": "4710d9f0-6a43-41df-9c23-10b18d551821",
+    "appUUID": "d9313cb2-fae4-4ccd-91d2-931f13e42076",
     "appType": "clockface",
     "appDisplayName": "BrickFace",
     "iconFile": "resources/icon.png",
@@ -16,5 +16,12 @@
         "name": "BrickFace"
       }
     }
+  },
+  "dependencies": {
+    "@fitbit/sdk": "~1.0.0",
+    "@fitbit/sdk-cli": "^1.0.1"
+  },
+  "scripts": {
+    "build": "fitbit-build"
   }
 }
