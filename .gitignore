@@ -1,3 +1,7 @@
+# IDE's & text-editors
 .idea
+.vscode
+
+# Everything else
 node_modules
 build
