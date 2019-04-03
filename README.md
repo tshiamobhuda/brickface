@@ -18,7 +18,11 @@ Stats shown include the following:
 - **LV**: (elevation Gain)
 
 # Screenshot
-![screenshot](BrickFace-screenshot.png)
+<!-- ![screenshot](screenshots/BrickFace-screenshot.png) ![screenshot](screenshots/BrickFace-screenshot.png) -->
+
+|![Clock Face](screenshots/BrickFace-screenshot.png)|![Distance](screenshots/BrickFace-distance.png)|
+|:---:|:---:|
+|Cockface|Click STEPS to toggle 
 
 # Todo
 - [ ] Allow clock-face to be clickable to toggle stats ie _distance, heart reading, etc_
