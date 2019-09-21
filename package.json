@@ -1,6 +1,6 @@
 {
   "fitbit": {
-    "appUUID": "d9313cb2-fae4-4ccd-91d2-931f13e42076",
+    "appUUID": "4710d9f0-6a43-41df-9c23-10b18d551821",
     "appType": "clockface",
     "appDisplayName": "BrickFace",
     "iconFile": "resources/icon.png",
@@ -18,10 +18,16 @@
     }
   },
   "dependencies": {
-    "@fitbit/sdk": "~1.0.0",
-    "@fitbit/sdk-cli": "^1.0.1"
+    "@fitbit/sdk": "~3.1.0",
+    "@fitbit/sdk-cli": "^1.6.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tshiamobhuda/brickface"
   },
   "scripts": {
-    "build": "fitbit-build"
+    "build": "fitbit-build",
+    "debug": "fitbit"
   }
 }
